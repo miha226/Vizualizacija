@@ -1,0 +1,55 @@
+{
+    "nodes":[
+    {"name":"Coal", "color":"black"},
+    {"name":"Natural gas", "color":"yellow"},
+    {"name":"Oil", "color":"#1f0429"},
+    {"name":"Biofuels", "color":"#325c41"},
+    {"name":"Waste", "color":"#5c5532"},
+    {"name":"Geothermal", "color":"#662020"},
+    {"name":"Solar PV", "color":"#3a475e"},
+    {"name":"Solar thermal", "color":"#e6f542"},
+    {"name":"Tide", "color":"#030d96"},
+    {"name":"Hydro", "color":"#035efc"},
+    {"name":"Wind", "color":"#9bb6bf"},
+    {"name":"Nuclear", "color":"#fc9003"},
+    {"name":"Other sources", "color":"#715b7d"},
+    {"name":"Imports", "color":"#bf2e2e"},
+    {"name":"Electricity grid", "color":"#8b3bed"},
+    {"name":"Industry", "color":"#663e10"},
+    {"name":"Residential", "color":"#5bc3e3"},
+    {"name":"Agriculture / forestry", "color":"#50cc5d"},
+    {"name":"Commercial and public services", "color":"#7d5d48"},
+    {"name":"Transport", "color":"#4f5a5c"},
+    {"name":"Fishing", "color":"#4f5a5c"},
+    {"name":"Non-specified", "color":"#4f5a5c"},
+    {"name":"Exports", "color":"#1dad2c"}
+    ],
+    "links":[
+    {"source":"Coal","target":"Electricity grid","value":2},
+    {"source":"Natural gas","target":"Electricity grid","value":2},
+    {"source":"Oil","target":"Electricity grid","value":2},
+    {"source":"Biofuels","target":"Electricity grid","value":2},
+    {"source":"Waste","target":"Electricity grid","value":2},
+    {"source":"Geothermal","target":"Electricity grid","value":2},
+    {"source":"Solar PV","target":"Electricity grid","value":2},
+    {"source":"Solar thermal","target":"Electricity grid","value":1},
+    {"source":"Tide","target":"Electricity grid","value":4},
+    {"source":"Hydro","target":"Electricity grid","value":4},
+    {"source":"Wind","target":"Electricity grid","value":4},
+    {"source":"Nuclear","target":"Electricity grid","value":4},
+    {"source":"Other sources","target":"Electricity grid","value":4},
+    {"source":"Imports","target":"Electricity grid","value":4},
+    {"source":"Electricity grid","target":"Industry","value":2},
+    {"source":"Electricity grid","target":"Residential","value":2},
+    {"source":"Electricity grid","target":"Agriculture / forestry","value":1},
+    {"source":"Electricity grid","target":"Commercial and public services","value":1},
+    {"source":"Electricity grid","target":"Transport","value":1},
+    {"source":"Electricity grid","target":"Fishing","value":1},
+    {"source":"Electricity grid","target":"Non-specified","value":1},
+    {"source":"Electricity grid","target":"Exports","value":1}
+    ]}
+
+
+  
+
+
